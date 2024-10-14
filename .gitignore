@@ -1,0 +1,65 @@
+# Node.js関連
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Viteビルド出力
+dist/
+
+# TypeScript関連
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Production
+/build
+
+# Frontend environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker関連
+docker-compose.override.yml
+docker-compose.override.yaml
+.docker/
+Dockerfile.dev
+
+# Gradle関連
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# OS or Editor files
+.DS_Store
+Thumbs.db
+
+# MySQL
+dump.sql
+
+# その他
+*.env
+*.jar
